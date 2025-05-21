@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blazy Weed</title>
+    <title>Splash</title>
     <!-- font-family cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,13 +23,14 @@
 
 <body class="splash-page">
     <main>
-        <section class="splash-banner py-5">
+        <!-- splash-banner start -->
+        <section class="splash-banner py-5 ">
             <header class="splash-header text-center pb-3">
                 <a href="">
                     <img src="./assets/images/blazy-pay-logo.svg" alt="site logo">
                 </a>
             </header>
-            <div class="container pb-5">
+            <div class="container pb-md-5 pb-4">
                 <div class="row">
                     <div class="col-12 pt-5">
                         <h1 class="mb-4">Boost Your Sales Simplify Your Payments</h1>
@@ -46,12 +47,14 @@
                 </div>
             </div>
         </section>
+        <!-- splash-banner end-->
 
-        <section class="seller pb-5">
+        <!-- seller start -->
+        <section class="seller pb-md-5 pb-4">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="section-title mb-4 mb-lg-5">All of the Sellers are verified and trusted.</h2>
+                        <h2 class="section-title mb-5">All of the Sellers are verified and trusted.</h2>
                     </div>
                 </div>
             </div>
@@ -101,7 +104,9 @@
                 </div>
             </div>
         </section>
+        <!-- seller end -->
 
+        <!-- why-choose  start -->
         <section class="why-choose py-5">
             <div class="container position-relative">
                 <div class="row">
@@ -214,7 +219,9 @@
                 </div>
             </div>
         </section>
+        <!-- why-choose end -->
 
+        <!-- review start -->
         <section class="review py-5">
             <div class="container">
                 <div class="row">
@@ -223,7 +230,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="review-card bg-white">
-                                        <div class="review-card-header d-flex gap-3 mb-2">
+                                        <div class="review-card-header d-flex justify-content-between gap-3 mb-2">
                                             <div class="d-flex gap-3 align-items-center">
                                                 <div class="img-wrapper">
                                                     <img src="./assets/images/user-img.png" alt="user img"
@@ -249,7 +256,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="review-card bg-white">
-                                        <div class="review-card-header d-flex gap-3 mb-2">
+                                        <div class="review-card-header d-flex justify-content-between gap-3 mb-2">
                                             <div class="d-flex gap-3 align-items-center">
                                                 <div class="img-wrapper">
                                                     <img src="./assets/images/user-img.png" alt="user img"
@@ -275,7 +282,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="review-card bg-white">
-                                        <div class="review-card-header d-flex gap-3 mb-2">
+                                        <div class="review-card-header d-flex justify-content-between gap-3 mb-2">
                                             <div class="d-flex gap-3 align-items-center">
                                                 <div class="img-wrapper">
                                                     <img src="./assets/images/user-img.png" alt="user img"
@@ -301,7 +308,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="review-card bg-white">
-                                        <div class="review-card-header d-flex gap-3 mb-2">
+                                        <div class="review-card-header d-flex justify-content-between gap-3 mb-2">
                                             <div class="d-flex gap-3 align-items-center">
                                                 <div class="img-wrapper">
                                                     <img src="./assets/images/user-img.png" alt="user img"
@@ -327,7 +334,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="review-card bg-white">
-                                        <div class="review-card-header d-flex gap-3 mb-2">
+                                        <div class="review-card-header d-flex justify-content-between gap-3 mb-2">
                                             <div class="d-flex gap-3 align-items-center">
                                                 <div class="img-wrapper">
                                                     <img src="./assets/images/user-img.png" alt="user img"
@@ -361,8 +368,10 @@
                 </div>
             </div>
         </section>
+        <!-- review end-->
 
-        <section class="faq py-5">
+        <!-- faq start  -->
+        <section class="faq">
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4">
@@ -375,13 +384,16 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faqAccOne" aria-expanded="true" aria-controls="faqAccOne">
-                                          Which pricing plan is right for me?
+                                        Which pricing plan is right for me?
                                     </button>
                                 </h2>
                                 <div id="faqAccOne" class="accordion-collapse collapse show"
                                     data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                       <p>We understand that each organization is unique, requiring specific features to support its workflows and projects. Above you can see the features included in the different plans to support your needs. If you need help in choosing the right plan for you, reach out to our sales team.</p>
+                                        <p>We understand that each organization is unique, requiring specific features
+                                            to support its workflows and projects. Above you can see the features
+                                            included in the different plans to support your needs. If you need help in
+                                            choosing the right plan for you, reach out to our sales team.</p>
                                     </div>
                                 </div>
                             </div>
@@ -389,103 +401,128 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faqAccTwo" aria-expanded="false" aria-controls="faqAccTwo">
-                                       Can i sell my own brand ?
+                                        Can i sell my own brand ?
                                     </button>
                                 </h2>
-                                <div id="faqAccTwo" class="accordion-collapse collapse"
-                                    data-bs-parent="#faqAccordion">
+                                <div id="faqAccTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor aliquam mollitia deleniti officiis accusamus a aliquid, possimus necessitatibus odio dicta consectetur placeat? Et architecto tempora accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore velit aperiam nihil. Ducimus, officia exercitationem?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate
+                                            fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor
+                                            aliquam mollitia deleniti officiis accusamus a aliquid, possimus
+                                            necessitatibus odio dicta consectetur placeat? Et architecto tempora
+                                            accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore
+                                            velit aperiam nihil. Ducimus, officia exercitationem?</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-3">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faqAccThree" aria-expanded="false"
-                                        aria-controls="faqAccThree">
+                                        data-bs-target="#faqAccThree" aria-expanded="false" aria-controls="faqAccThree">
                                         Can i manage my Team ?
                                     </button>
                                 </h2>
                                 <div id="faqAccThree" class="accordion-collapse collapse"
                                     data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor aliquam mollitia deleniti officiis accusamus a aliquid, possimus necessitatibus odio dicta consectetur placeat? Et architecto tempora accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore velit aperiam nihil. Ducimus, officia exercitationem?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate
+                                            fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor
+                                            aliquam mollitia deleniti officiis accusamus a aliquid, possimus
+                                            necessitatibus odio dicta consectetur placeat? Et architecto tempora
+                                            accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore
+                                            velit aperiam nihil. Ducimus, officia exercitationem?</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-3">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faqAccFour" aria-expanded="false"
-                                        aria-controls="faqAccFour">
-                                       Can i push my own Ads and Banner ?
+                                        data-bs-target="#faqAccFour" aria-expanded="false" aria-controls="faqAccFour">
+                                        Can i push my own Ads and Banner ?
                                     </button>
                                 </h2>
-                                <div id="faqAccFour" class="accordion-collapse collapse"
-                                    data-bs-parent="#faqAccordion">
+                                <div id="faqAccFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor aliquam mollitia deleniti officiis accusamus a aliquid, possimus necessitatibus odio dicta consectetur placeat? Et architecto tempora accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore velit aperiam nihil. Ducimus, officia exercitationem?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate
+                                            fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor
+                                            aliquam mollitia deleniti officiis accusamus a aliquid, possimus
+                                            necessitatibus odio dicta consectetur placeat? Et architecto tempora
+                                            accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore
+                                            velit aperiam nihil. Ducimus, officia exercitationem?</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-3">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faqAccFive" aria-expanded="false"
-                                        aria-controls="faqAccFive">
+                                        data-bs-target="#faqAccFive" aria-expanded="false" aria-controls="faqAccFive">
                                         What method of payment can i accept ?
                                     </button>
                                 </h2>
-                                <div id="faqAccFive" class="accordion-collapse collapse"
-                                    data-bs-parent="#faqAccordion">
+                                <div id="faqAccFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor aliquam mollitia deleniti officiis accusamus a aliquid, possimus necessitatibus odio dicta consectetur placeat? Et architecto tempora accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore velit aperiam nihil. Ducimus, officia exercitationem?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate
+                                            fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor
+                                            aliquam mollitia deleniti officiis accusamus a aliquid, possimus
+                                            necessitatibus odio dicta consectetur placeat? Et architecto tempora
+                                            accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore
+                                            velit aperiam nihil. Ducimus, officia exercitationem?</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-3">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faqAccSix" aria-expanded="false"
-                                        aria-controls="faqAccSix">
+                                        data-bs-target="#faqAccSix" aria-expanded="false" aria-controls="faqAccSix">
                                         Can i have my money deposited to my bank ?
                                     </button>
                                 </h2>
-                                <div id="faqAccSix" class="accordion-collapse collapse"
-                                    data-bs-parent="#faqAccordion">
+                                <div id="faqAccSix" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor aliquam mollitia deleniti officiis accusamus a aliquid, possimus necessitatibus odio dicta consectetur placeat? Et architecto tempora accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore velit aperiam nihil. Ducimus, officia exercitationem?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate
+                                            fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor
+                                            aliquam mollitia deleniti officiis accusamus a aliquid, possimus
+                                            necessitatibus odio dicta consectetur placeat? Et architecto tempora
+                                            accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore
+                                            velit aperiam nihil. Ducimus, officia exercitationem?</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-3">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faqAccSeven" aria-expanded="false"
-                                        aria-controls="faqAccSeven">
+                                        data-bs-target="#faqAccSeven" aria-expanded="false" aria-controls="faqAccSeven">
                                         Can i change my Plan ?
                                     </button>
                                 </h2>
                                 <div id="faqAccSeven" class="accordion-collapse collapse"
                                     data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor aliquam mollitia deleniti officiis accusamus a aliquid, possimus necessitatibus odio dicta consectetur placeat? Et architecto tempora accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore velit aperiam nihil. Ducimus, officia exercitationem?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate
+                                            fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor
+                                            aliquam mollitia deleniti officiis accusamus a aliquid, possimus
+                                            necessitatibus odio dicta consectetur placeat? Et architecto tempora
+                                            accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore
+                                            velit aperiam nihil. Ducimus, officia exercitationem?</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-3">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faqAccEight" aria-expanded="false"
-                                        aria-controls="faqAccEight">
-                                       Can i hire my own virtual Budtenders ?
+                                        data-bs-target="#faqAccEight" aria-expanded="false" aria-controls="faqAccEight">
+                                        Can i hire my own virtual Budtenders ?
                                     </button>
                                 </h2>
                                 <div id="faqAccEight" class="accordion-collapse collapse"
                                     data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor aliquam mollitia deleniti officiis accusamus a aliquid, possimus necessitatibus odio dicta consectetur placeat? Et architecto tempora accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore velit aperiam nihil. Ducimus, officia exercitationem?</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptate
+                                            fuga tempora corrupti praesentium. Iure aperiam perspiciatis enim, dolor
+                                            aliquam mollitia deleniti officiis accusamus a aliquid, possimus
+                                            necessitatibus odio dicta consectetur placeat? Et architecto tempora
+                                            accusantium ullam nobis aspernatur, provident illo accusamus placeat! Dolore
+                                            velit aperiam nihil. Ducimus, officia exercitationem?</p>
                                     </div>
                                 </div>
                             </div>
@@ -494,6 +531,67 @@
                 </div>
             </div>
         </section>
+        <!-- faq end -->
+
+        <!-- custom-contact-us start  -->
+        <section class="custom-contact-us splash-contact-us">
+            <div class="container">
+                <div class="row align-items-center row-gap-4">
+                    <div class="col-md-6">
+                        <div class="custom-contact-form">
+                            <h3>Have Any Questions</h3>
+                            <p>Feel free to contact us through anywhere.</p>
+                            <form action="">
+                                <div class="form-wrapper d-flex flex-column">
+                                    <div class="d-flex flex-sm-row flex-column gap-12">
+                                        <div class="input-box">
+                                            <input type="text" name="name" id="name" placeholder="Your Name"
+                                                class="form-control">
+                                        </div>
+                                        <div class="input-box">
+                                            <input type="email" name="email" id="email" placeholder="Email Name"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" name="website" id="web" placeholder="Website"
+                                            class="form-control">
+                                    </div>
+                                    <div class="input-box">
+                                        <textarea name="textarea" id="textarea" class="form-control"></textarea>
+                                    </div>
+                                    <div class="input-box">
+                                        <button type="submit" class="contact-submit-btn">Let's go!</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-12 d-flex flex-column splash-contact-us-content">
+                            <h2 class="text-white">Ready to Get Paid the Blazy Way?</h2>
+                            <p class="text-white mb-4">Join the growing community of cannabis sellers who are scaling
+                                smarter
+                                with Blazy Pay.</p>
+                            <p class="text-white">No contracts. No hidden fees. Just results.</p>
+                            <a href="tel:+16144403284" class="call_btn"><span><svg width="30" height="30"
+                                        viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g id="Group">
+                                            <path id="Vector"
+                                                d="M14.7167 0.522461H14.7095C6.74296 0.522461 0.264648 7.00258 0.264648 14.9709C0.264648 18.1315 1.28326 21.0609 3.01527 23.4395L1.21463 28.8071L6.76825 27.0317C9.05291 28.5452 11.7782 29.4193 14.7167 29.4193C22.6832 29.4193 29.1615 22.9374 29.1615 14.9709C29.1615 7.00439 22.6832 0.522461 14.7167 0.522461Z"
+                                                fill="#4CAF50" />
+                                            <path id="Vector_2"
+                                                d="M23.1242 20.9255C22.7756 21.9098 21.3922 22.7261 20.2887 22.9645C19.5337 23.1253 18.5476 23.2535 15.2281 21.8773C10.9821 20.1182 8.24771 15.8035 8.0346 15.5236C7.83051 15.2437 6.31885 13.2389 6.31885 11.1656C6.31885 9.09223 7.37178 8.08265 7.7962 7.6492C8.14477 7.2934 8.7209 7.13086 9.27355 7.13086C9.45235 7.13086 9.61309 7.13989 9.75757 7.14711C10.182 7.16517 10.3951 7.19046 10.675 7.86051C11.0236 8.70032 11.8725 10.7737 11.9736 10.9868C12.0765 11.1999 12.1795 11.4889 12.035 11.7688C11.8996 12.0578 11.7804 12.186 11.5672 12.4316C11.3541 12.6773 11.1518 12.8651 10.9387 13.1288C10.7437 13.3581 10.5233 13.6038 10.769 14.0282C11.0146 14.4436 11.8634 15.8288 13.1132 16.9413C14.726 18.3772 16.0336 18.8359 16.5014 19.0309C16.8499 19.1754 17.2653 19.1411 17.52 18.8702C17.8433 18.5216 18.2424 17.9437 18.6488 17.3748C18.9377 16.9666 19.3026 16.9161 19.6855 17.0605C20.0756 17.196 22.1399 18.2164 22.5643 18.4277C22.9887 18.6408 23.2687 18.742 23.3716 18.9208C23.4727 19.0996 23.4727 19.9394 23.1242 20.9255Z"
+                                                fill="#FAFAFA" />
+                                        </g>
+                                    </svg>
+                                </span>+ 16144403284</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- custom-contact-us end -->
 
     </main>
 
