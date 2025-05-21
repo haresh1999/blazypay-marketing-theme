@@ -3246,7 +3246,7 @@ display: block;
     height: 100%;
 }
 .splash-page::after {
-    background: url('../images/splash-bg.png') no-repeat top/cover;
+    background: url('../images/splash-bg.png') no-repeat top/contain;
     opacity: .5;
     backdrop-filter: blur(634px);
     z-index: -1;
@@ -3327,8 +3327,8 @@ display: block;
     font-weight: 600;
 }
 .seller-inner-wrapper {
-    border: 5px solid transparent;
-    border-image: repeating-linear-gradient(to right, #ffffff 0, #ffffff 10px, #ff000000 10px, #ff000000 20px);
+    border: 3px solid transparent;
+    border-image: repeating-linear-gradient(to right, #ffffff 0, #ffffff 15px, #ff000000 15px, #ff000000 30px);
     border-image-slice: 1;
     padding: 15px;
 }
@@ -3355,7 +3355,7 @@ display: block;
 .btn-white:hover,
 .btn-white:focus,
 .btn-white:active {
-    background: #18181B;
+    background: #329B46;
     color: #fff;
 }
 
